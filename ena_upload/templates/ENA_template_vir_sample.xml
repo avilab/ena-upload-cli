@@ -36,10 +36,12 @@
             <SAMPLE_ATTRIBUTE>
                 <TAG>geographic location (latitude)</TAG>
                 <VALUE>${row.geographic_location_latitude}</VALUE>
+                <UNITS>DD</UNITS>
             </SAMPLE_ATTRIBUTE>
             <SAMPLE_ATTRIBUTE>
                 <TAG>geographic location (longitude)</TAG>
                 <VALUE>${row.geographic_location_longitude}</VALUE>
+                <UNITS>DD</UNITS>
             </SAMPLE_ATTRIBUTE>
             <SAMPLE_ATTRIBUTE>
                 <TAG>sample capture status</TAG>
@@ -64,6 +66,7 @@
             <SAMPLE_ATTRIBUTE>
                 <TAG>host age</TAG>
                 <VALUE>${row.host_age}</VALUE>
+                <UNITS>years</UNITS>
             </SAMPLE_ATTRIBUTE>
             <SAMPLE_ATTRIBUTE>
                 <TAG>host scientific name</TAG>
